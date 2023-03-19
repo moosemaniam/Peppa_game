@@ -1,7 +1,11 @@
-[gd_scene load_steps=10 format=3 uid="uid://ev20sjq482n1"]
+[gd_scene load_steps=11 format=3 uid="uid://ev20sjq482n1"]
 
 [ext_resource type="Script" path="res://peppa.gd" id="1_iu2u3"]
 [ext_resource type="Texture2D" uid="uid://duvnmuaaqsw2k" path="res://peppa-pig-09-1024x282.png" id="1_k0hgw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kg7u1"]
+atlas = ExtResource("1_k0hgw")
+region = Rect2(0, 0, 204, 282)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uwsbn"]
 atlas = ExtResource("1_k0hgw")
@@ -25,6 +29,14 @@ region = Rect2(816, 0, 204, 282)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2ib1c"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kg7u1")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_uwsbn")
@@ -58,8 +70,7 @@ metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_2ib1c")
-animation = &"walk"
-frame_progress = 0.529144
+animation = &"jump"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_j5dac")

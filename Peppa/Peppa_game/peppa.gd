@@ -37,6 +37,3 @@ func _process(delta):
 		$AnimatedSprite2D.animation = "walk"
 		$AnimatedSprite2D.flip_v = false
 		
-	
-
-	# See the note below about boolean assignment.
