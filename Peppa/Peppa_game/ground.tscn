@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://lqrjm566baoo"]
+
+[ext_resource type="Texture2D" uid="uid://ympuu6bkpixk" path="res://Game_tiles/Grass.png" id="1_g8j0j"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2phte"]
+
+[node name="Ground" type="StaticBody2D"]
+scale = Vector2(0.1, 0.1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_2phte")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_g8j0j")

@@ -1,6 +1,14 @@
 2a60927148abd1d33b818b535e306557
-::res://::1679123879
+::res://::1679208659
 default_env.tres::Environment::-1::1679080693::0::1::::<><>::
 icon.png::CompressedTexture2D::1065212448396727215::1679080576::1679081300::1::::<><>::
 peppa-pig-09-1024x282.png::CompressedTexture2D::8607202657597147016::1679080318::1679123881::1::::<><>::
-Peppa.tscn::PackedScene::-1::1679080693::0::1::::<><>::
+peppa.gd::GDScript::-1::1679208421::0::1::::<>Area2D<>::
+Peppa.tscn::PackedScene::8413108281068015189::1679208538::0::1::::<><>::res://peppa.gd<>uid://duvnmuaaqsw2k
+plan.md::TextFile::-1::1679127317::0::1::::<><>::
+::res://Game_tiles/::1679206362
+Grass.png::CompressedTexture2D::1710252349546427568::1679206170::1679206362::1::::<><>::
+Muddy_Puddle.png::CompressedTexture2D::2617700224311192674::1679206170::1679206362::1::::<><>::
+Sky.png::CompressedTexture2D::7286777399688724622::1679206170::1679206362::1::::<><>::
+Soil.png::CompressedTexture2D::2789800080506091211::1679206170::1679206362::1::::<><>::
+Stone.png::CompressedTexture2D::3585565867473573833::1679206170::1679206362::1::::<><>::
